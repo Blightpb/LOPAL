@@ -2,10 +2,10 @@ programa {
 
   funcao inicio() {
     real maior = 0, indice
-    inteiro numero, i, n[8]
+    real numero, i, n[8]
 
 para(i = 0; i < 8; i++){
-    escreva("Qual o valor do índice ",i,": ?\n")
+    escreva("Qual o valor do Ã­ndice ",i,": ?\n")
     leia(n[i])
     }
 
@@ -17,8 +17,8 @@ para(i = 0; i < 8; i++){
   }
 }
 
-escreva("O maior valor é ",maior) 
-escreva(" e ele se encontra na posição ",indice)
+escreva("O maior valor Ã© ",maior) 
+escreva(" e ele se encontra na posiÃ§Ã£o ",indice)
 
   }
 }
