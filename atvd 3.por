@@ -3,8 +3,8 @@ programa
   funcao inicio() 
   {
    inteiro vetor[5], i
-   para(inteiro i = 0; i < 5; i++) {
-   escreva("Digite o índice ", i, ": ")
+   para(i = 0; i < 5; i++) {
+   escreva("Digite o Ã­ndice ", i, ": ")
    leia (vetor[i])
   
     }
