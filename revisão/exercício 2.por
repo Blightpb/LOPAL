@@ -4,16 +4,16 @@ programa
   {
    real pn, sn, d
 
-   escreva("Digite um número: \n")
+   escreva("Digite um nÃºmero: \n")
    leia(pn)
-   escreva("Digite um segund número: \n")
+   escreva("Digite um segundo nÃºmero: \n")
    leia(sn)
    
    d = pn - sn
    
    limpa()
    
-   escreva ("A diferença entre eles é de: ", d)
+   escreva ("A diferenÃ§a entre eles Ã© de: ", d)
   
   }
 }
