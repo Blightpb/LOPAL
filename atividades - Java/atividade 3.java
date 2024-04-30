@@ -7,9 +7,9 @@ public class Main {
         System.out.print("Digite a nota do aluno: ");
         double nota = scanner.nextDouble();
         
-        if (nota >= 89 && nota <= 100) {
+        if (nota >= 90 && nota <= 100) {
             System.out.println("A nota do aluno é A.");
-        } else if (nota >= 80 && nota < 90) {
+        } else if (nota >= 80 && nota < 89) {
             System.out.println("A nota do aluno é B.");
         } else if (nota >= 70 && nota < 79) {
             System.out.println("A nota do aluno é C.");
