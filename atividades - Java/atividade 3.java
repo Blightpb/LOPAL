@@ -20,7 +20,6 @@ public class Main {
         } else {
             System.out.println("Nota inválida. Por favor, insira um valor entre 0 e 100.");
         }
-        
-        scanner.close();
+    
     }
 }
