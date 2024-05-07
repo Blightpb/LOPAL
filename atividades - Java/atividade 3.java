@@ -23,7 +23,7 @@ public class Main {
         System.out.println("A nota do aluno é F.");
         } 
         else {
-        System.out.println("Nota inválida. Por favor, insira um valor entre 0 e 100.");
+        System.out.println("Nota inválida.");
         }
     
     }
