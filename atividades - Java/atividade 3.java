@@ -5,7 +5,7 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         
         System.out.print("Digite a nota do aluno: ");
-        double nota = scanner.nextDouble();
+        int nota = scanner.nextInt();
         
         if (nota >= 90 && nota <= 100) {
             System.out.println("A nota do aluno é A.");
