@@ -19,6 +19,9 @@ public class Main {
       else if (numero2 > numero1){
       System.out.println("o maior número é " + numero2 + " e o menor é " + numero1);
       }
+      else if (numero1 == numero2){
+      System.out.println("Ambos os números são iguais.");
+      }
       
     }
 }
