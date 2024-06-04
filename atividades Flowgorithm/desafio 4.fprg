@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Aluno"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-02-06 12:21:19 "/>
+        <attribute name="created" value="QWx1bm87TElNMDMtTjAzOzIwMjQtMDItMDY7IjEyOjA3OjUwICI7MjI0NA=="/>
+        <attribute name="edited" value="QWx1bm87TElNMDMtTjAzOzIwMjQtMDItMDY7IjEyOjIxOjE5ICI7MTsyMzUz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, r" type="Real" array="False" size=""/>
+            <output expression="&quot;Qual &#233; o raio do c&#237;rculo? &quot;" newline="True"/>
+            <input variable="r"/>
+            <assign variable="a" expression="3.14 * r^2"/>
+            <output expression="&quot;O &#225;rea do c&#237;rculo &#233; de: &quot; &amp; a" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

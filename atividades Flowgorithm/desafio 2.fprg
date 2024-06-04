@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Aluno"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-02-06 10:39:32 "/>
+        <attribute name="created" value="QWx1bm87TElNMDMtTjAzOzIwMjQtMDItMDY7IjA4OjAyOjUyICI7MjI0Ng=="/>
+        <attribute name="edited" value="QWx1bm87TElNMDMtTjAzOzIwMjQtMDItMDY7IjEwOjM5OjMyICI7MTsyMzU1"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, soma, sub, div, mult, resultado" type="Real" array="False" size=""/>
+            <output expression="&quot;Digite o primeiro n&#250;mero: &quot;" newline="True"/>
+            <input variable="a"/>
+            <output expression="&quot;Digite o segundo n&#250;mero: &quot;" newline="True"/>
+            <input variable="b"/>
+            <assign variable="soma" expression="a + b"/>
+            <assign variable="sub" expression="a - b"/>
+            <assign variable="mult" expression="a * b"/>
+            <assign variable="div" expression="a / b"/>
+            <output expression="&quot;O resultado da soma &#233;: &quot; &amp; soma" newline="True"/>
+            <output expression="&quot;O resultado da subtra&#231;&#227;o &#233;: &quot; &amp; sub" newline="True"/>
+            <output expression="&quot;O resultado da divis&#227;o &#233;: &quot; &amp; div" newline="True"/>
+            <output expression="&quot;O resultado da multiplica&#231;&#227;o &#233;: &quot; &amp; mult" newline="True"/>
+            <input variable="resultado"/>
+        </body>
+    </function>
+</flowgorithm>
